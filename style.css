@@ -63,24 +63,26 @@ p {
 }
 
 .menu {
-    list-style: none;
-    position: sticky;
-    top: 10px;
-    left: 10px;
-    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    background: white;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    font-family: cursive;
+
 }
 
 .link {
-    float: right;
-    margin: 5px;
-    color: black;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
 }
 
 .link:hover {
+    text-decoration: underline;
     font-size: 25px;
-    top: 0px;
 }
 
 html {
@@ -113,19 +115,6 @@ a {
     transform: scale(0.9)
 }
 
-#line2 {
-    height: 45px;
-    background-color: white;
-    width: 1300px;
-    margin: 8px auto;
-    list-style: none;
-    position: sticky;
-    top: 10px;
-    cursor: pointer;
-    z-index: 9;
-    font-family: cursive;
-}
-
 #abouthobby {
     background: linear-gradient(aqua 0%, blue 100%);
     padding: 50px;
@@ -139,4 +128,21 @@ a {
 #myinsp {
     background: linear-gradient(aqua 0%, blue 100%);
     padding: 50px;
+}
+
+#contact_2 h3 {
+    display: inline;
+}
+
+#contact_2 a {
+    color: black;
+    text-shadow: none !important;
+}
+
+#contact {
+    background: linear-gradient(blue 0%, aqua 100%);
+}
+
+#contact_1 iframe {
+    width: 100%;
 }
